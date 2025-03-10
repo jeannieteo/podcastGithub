@@ -31,7 +31,7 @@ jobs:
       run: python feed.py
     - name: git push
       run: |
-        git config user.name jeannieteo78
+        git config user.name jeannieteo
         git config user.email jeannieteo78@gmail.com
         git add .
         git commit -m "modified feed"
